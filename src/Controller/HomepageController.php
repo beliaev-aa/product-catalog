@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Onlydev\Controller;
 
-class HomepageController
+class HomepageController extends AbstractController
 {
     public function index(): void
     {
